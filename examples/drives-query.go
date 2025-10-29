@@ -30,7 +30,7 @@ import (
 	"log"
 
 	"github.com/minio/madmin-go/v4"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/openstor/openstor-go/v7/pkg/credentials"
 )
 
 func main() {

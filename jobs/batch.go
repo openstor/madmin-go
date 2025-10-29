@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go/v4/xtime"
-	miniogo "github.com/minio/minio-go/v7"
+	miniogo "github.com/openstor/openstor-go/v7"
 )
 
 // BatchJobRequest to start batch job

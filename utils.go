@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/openstor/openstor-go/v7/pkg/s3utils"
 )
 
 //msgp:tag json
