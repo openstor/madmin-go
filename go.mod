@@ -1,4 +1,4 @@
-module github.com/minio/madmin-go/v4
+module github.com/openstor/madmin-go/v4
 
 go 1.25
 
@@ -12,15 +12,15 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/golang-jwt/jwt/v4 v4.5.2
-	github.com/openstor/openstor-go/v7 v7.0.0-20251029061859-e3722375cf5f
-	github.com/openstor/pkg/v3 v3.0.0-20251029061218-daf757db6b9a
+	github.com/openstor/openstor-go/v7 v7.0.0-20251030001658-18ac9423f5db
+	github.com/openstor/pkg/v3 v3.0.0-20251030003148-e05eae5b47e3
 	github.com/prometheus/common v0.65.0
 	github.com/prometheus/procfs v0.16.1
 	github.com/prometheus/prom2json v1.4.2
 	github.com/safchain/ethtool v0.6.1
 	github.com/secure-io/sio-go v0.3.1
 	github.com/shirou/gopsutil/v4 v4.25.5
-	github.com/tinylib/msgp v1.4.0
+	github.com/tinylib/msgp v1.5.0
 	golang.org/x/crypto v0.39.0
 	golang.org/x/net v0.41.0
 	gopkg.in/yaml.v3 v3.0.1

@@ -4,11 +4,9 @@ on:
   pull_request:
     branches:
       - main
-      - master
   push:
     branches:
       - main
-      - master
 
 jobs:
   test:
@@ -16,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        go-version: [1.24.x]
+        go-version: [1.25]
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - name: Set up Go ${{ matrix.go-version }} on ${{ matrix.os }}

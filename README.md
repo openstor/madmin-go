@@ -14,15 +14,16 @@ package main
 import (
     "fmt"
 
-    "github.com/minio/madmin-go/v4"
+    "github.com/openstor/madmin-go/v4"
+    "github.com/openstor/openstor-go/v7/pkg/credentials"
 )
 
 func main() {
-    // Use a secure connection.
-    ssl := true
-
     // Initialize minio client object.
-    mdmClnt, err := madmin.New("your-minio.example.com:9000", "YOUR-ACCESSKEYID", "YOUR-SECRETKEY", ssl)
+    mdmClnt, err := madmin.NewWithOptions("your-minio.example.com:9000", &madmin.Options{
+        Creds:  credentials.NewStaticV4("YOUR-ACCESSKEYID", "YOUR-SECRETKEY", ""),
+        Secure: true,
+    })
     if err != nil {
         fmt.Println(err)
         return
@@ -39,8 +40,7 @@ func main() {
 ```
 
 ## Documentation
-All documentation is available [here](https://pkg.go.dev/github.com/minio/madmin-go/v4)
+All documentation is available [here](https://pkg.go.dev/github.com/openstor/madmin-go/v4)
 
 ## License
 This SDK is licensed under [GNU AGPLv3](https://github.com/minio/madmin-go/blob/master/LICENSE).
-

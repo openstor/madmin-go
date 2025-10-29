@@ -1,6 +1,7 @@
-// Copyright 2010 The Go Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the go.dev/LICENSE file.
+// SPDX-FileCopyrightText: 2025 openstor contributors
+// SPDX-FileCopyrightText: 2015-2025 MinIO, Inc.
+// SPDX-License-Identifier: AGPL-3.0-or-later
+//
 
 package xtime
 

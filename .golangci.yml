@@ -25,6 +25,7 @@ linters:
       - third_party$
       - builtin$
       - examples$
+      - .*_gen\.go$
 formatters:
   enable:
     - gofumpt

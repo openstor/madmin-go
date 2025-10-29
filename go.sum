@@ -43,10 +43,10 @@ github.com/openstor/crc64nvme v0.0.0-20251029033624-a8be6069b19b h1:y9dsGlddwM15
 github.com/openstor/crc64nvme v0.0.0-20251029033624-a8be6069b19b/go.mod h1:kIFihYTIIa31RcVH+0q9bgQ9KDh01LtCJjweZ8URjg4=
 github.com/openstor/md5-simd v0.0.0-20251029025446-837fd3d5a5ba h1:HqANSJAZ8zIPqiqltIO4OaE13FyQu7BSNrj6Q11BkGk=
 github.com/openstor/md5-simd v0.0.0-20251029025446-837fd3d5a5ba/go.mod h1:wpoKoYn+HQUxN0AB61PEogZUm7ZH//1HTLUGXdf8zfU=
-github.com/openstor/openstor-go/v7 v7.0.0-20251029061859-e3722375cf5f h1:O7w58sWo6sNaZxhfQI1Vh1WzwlLp6DgP3Kjbgkf0N5k=
-github.com/openstor/openstor-go/v7 v7.0.0-20251029061859-e3722375cf5f/go.mod h1:5uj+qKGhvKOO1FU8zWWyYDdyNjrEynkEFsdfj817woU=
-github.com/openstor/pkg/v3 v3.0.0-20251029061218-daf757db6b9a h1:+XthEzVlh4E5x+fmegUGIEnRNnHR1Q+zAy2erQMNNuU=
-github.com/openstor/pkg/v3 v3.0.0-20251029061218-daf757db6b9a/go.mod h1:zq5Gr41DWd4qRhx4AzfnfW5Yj7CyLXnT8j2F5FhMiec=
+github.com/openstor/openstor-go/v7 v7.0.0-20251030001658-18ac9423f5db h1:L25K9Lid4tdRruRlfqaT+TJcMb5WIdY5evSFAjW2xYQ=
+github.com/openstor/openstor-go/v7 v7.0.0-20251030001658-18ac9423f5db/go.mod h1:5uj+qKGhvKOO1FU8zWWyYDdyNjrEynkEFsdfj817woU=
+github.com/openstor/pkg/v3 v3.0.0-20251030003148-e05eae5b47e3 h1:sSjQGGLJOBG3bGPaknCC2dENPmkwe+supUDMjt9xZfM=
+github.com/openstor/pkg/v3 v3.0.0-20251030003148-e05eae5b47e3/go.mod h1:zq5Gr41DWd4qRhx4AzfnfW5Yj7CyLXnT8j2F5FhMiec=
 github.com/philhofer/fwd v1.2.0 h1:e6DnBTl7vGY+Gz322/ASL4Gyp1FspeMvx1RNDoToZuM=
 github.com/philhofer/fwd v1.2.0/go.mod h1:RqIHx9QI14HlwKwm98g9Re5prTQ6LdeRQn+gXJFxsJM=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
@@ -73,8 +73,8 @@ github.com/shirou/gopsutil/v4 v4.25.5 h1:rtd9piuSMGeU8g1RMXjZs9y9luK5BwtnG7dZaQU
 github.com/shirou/gopsutil/v4 v4.25.5/go.mod h1:PfybzyydfZcN+JMMjkF6Zb8Mq1A/VcogFFg7hj50W9c=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/tinylib/msgp v1.4.0 h1:SYOeDRiydzOw9kSiwdYp9UcBgPFtLU2WDHaJXyHruf8=
-github.com/tinylib/msgp v1.4.0/go.mod h1:cvjFkb4RiC8qSBOPMGPSzSAx47nAsfhLVTCZZNuHv5o=
+github.com/tinylib/msgp v1.5.0 h1:GWnqAE54wmnlFazjq2+vgr736Akg58iiHImh+kPY2pc=
+github.com/tinylib/msgp v1.5.0/go.mod h1:cvjFkb4RiC8qSBOPMGPSzSAx47nAsfhLVTCZZNuHv5o=
 github.com/tklauser/go-sysconf v0.3.15 h1:VE89k0criAymJ/Os65CSn1IXaol+1wrsFHEB8Ol49K4=
 github.com/tklauser/go-sysconf v0.3.15/go.mod h1:Dmjwr6tYFIseJw7a3dRLJfsHAMXZ3nEnL/aZY+0IuI4=
 github.com/tklauser/numcpus v0.10.0 h1:18njr6LDBk1zuna922MgdjQuJFjrdppsZG60sHGfjso=
